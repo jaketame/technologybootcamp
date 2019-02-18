@@ -59,7 +59,7 @@ Setup user VM network
 
 Connect to Prism Central and create a network for user VM interfaces. Use any VLAN other than 0, and do not enable IP address management.
 
-In **Prism Central > Explore**, click **VMs**, then click **Network Config**
+In **Prism Central** > :fa:`bars` > **Virtual Infrastructure** > click **VMs**, then click **Network Config**
 
 Next click **VM Networks**, then click **+ Create Network**.
 

@@ -23,7 +23,7 @@ In **Prism Element > VM**, click **VM**, then click **Table**.
 
 Locate the Linux VM you created in the previous lab (Linux_VM-*intials*).
 
-- If the VM is powered on, power it Off
+- If the VM is powered off, power it On
 
 Select the VM, then click **Snapshot** from the menu below the list of VMs.
 
@@ -31,7 +31,7 @@ Provide a name for your snapshot.
 
 Return to VMs table and click the VM’s name to open its console window.
 
-Click **Snapshots** to see your snapshot.
+Click **VM Snapshots** to see your snapshot.
 
 - Note the four available actions (Details, Clone, Restore, and Delete).
 
@@ -46,7 +46,9 @@ Click **Update** from the menu below and modify the original VM you took the sna
 
 Now attempt to power on that VM and open its console window.
 
-- Note that the VM no longer has any disks to boot from and that the 2048 game is displayed.
+.. note::
+ If you can't see any pop-ups then this may be blocked, please allow pop-ups in browser if you can't see the console.
+ That the VM no longer has any disks to boot from and that the 2048 game is displayed.
 
 Power off the VM.
 

@@ -19,7 +19,7 @@ Power Actions and Console Access
 
 Explore VM power actions and console access.
 
-In **Prism Central > Explore > VMs**.
+In **Prism Central** > :fa:`bars` > **Virtual Infrastructure** > VMs**.
 
 Locate the Linux VM you created in the previous lab (Linux_VM-*initials*). (Use Prism’s search function if necessary)
 
@@ -68,7 +68,6 @@ Suggestions:
 - vm cpu > 1
 - vm mem > 2
 - vm iops
-- create vm
 - powered on
 - powered on cpu = 8
 
@@ -84,7 +83,7 @@ In **Prism Central >** :fa:`search`.
 Clone a VM
 ..........
 
-In **Prism Central > Explore > VMs**.
+In **Prism Central** > :fa:`bars` > **Virtual Infrastructure** > VMs**.
 
 Find and clone four copies of the CentOS-base virtual machine.
 
@@ -93,17 +92,15 @@ Select the VM, then click **Clone** from the **Actions** drop-down menu.
 Fill out the following fields and click **Save**:
 
 - **Number of Clones** - 4
-- **Prefix Name**  - Flow-*initials*-Clone
+- **Prefix Name**  - Linux-*initials*-Clone
 - **Starting Index Number** - 1
 
 .. figure:: images/manage_workloads_02.png
 
-Leave them powered off as they are used in the optional Flow Lab.
-
 Migrate a VM Between Hosts
 ..........................
 
-In **Prism Central > Explore > VMs**.
+In **Prism Central** > :fa:`bars` > **Virtual Infrastructure** > VMs**.
 
 Locate the Linux Vm from the previous lab (Linux_VM-*initials*).
 
@@ -128,7 +125,7 @@ When the task completes, verify that your VM host location has changed from the 
 Configure VM-to-Host Affinity Policies
 ......................................
 
-In **Prism Central > Explore > VMs**.
+In **Prism Central** > :fa:`bars` > **Virtual Infrastructure** > VMs**.
 
 Locate the Linux Vm from the previous lab (Linux_VM-*initials*).
 

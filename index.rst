@@ -41,60 +41,11 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Optional Labs
-  :name: _optional_labs
-  :hidden:
-
-  authentication/authentication
-  files_deploy/files_deploy
-  calm_enable/calm_enable
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Files Labs
-  :name: _optional_files_labs
-  :hidden:
-  
-  files_smb_share/files_smb_share
-  files_nfs_export/files_nfs_export
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Flow Lab
-  :name: _optional_flow_lab
-  :hidden:
-
-  what_is_flow/what_is_flow
-  flow_enable/flow_enable
-  flow_quarantine_vm/flow_quarantine_vm
-  flow_isolate_environments/flow_isolate_environments
-  flow_secure_app/flow_secure_app
-  flow_visualization/flow_visualization
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Calm Lab
-  :name: _optional_calm_lab
-  :hidden:
-
-  what_is_calm/what_is_calm
-  calm_projects/calm_projects
-  calm_sshkey_creation/calm_sshkey_creation
-  calm_mysql_blueprint/calm_mysql_blueprint
-  calm_3twa_blueprint/calm_3twa_blueprint
-  calm_windows_blueprint/calm_windows_blueprint
-  calm_marketplace/calm_marketplace
-
-
-
-.. toctree::
-  :maxdepth: 2
   :caption: Appendix
   :name: _appendix
   :hidden:
 
   appendix/glossary
-  appendix/basics
 
 .. _getting_started:
 
@@ -105,16 +56,6 @@ Getting Started
 Welcome to the Nutanix Technology Bootcamp! This workbook accompanies an instructor-led session that introduces Nutanix technologies and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
 
 At the end of the bootcamp, attendees should understand the basic concepts and technologies that make up the Nutanix Enterprise Cloud stack and should be well prepared for a hosted or onsite proof-of-concept (POC) engagement.
-
-What's New
-++++++++++
-
-- Workshop updated for the following software versions:
-    - AOS & PC 5.8.1
-
-- Optional Lab Updates:
-    - Calm
-    - Flow
 
 Agenda
 ++++++

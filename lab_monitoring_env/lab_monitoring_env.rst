@@ -16,7 +16,7 @@ Prism Central allows you to generate historical reports about your cluster envir
 
 Such reports can include resource consumption, abnormal behavior, and other valuable operational insights.
 
-In **Prism Central > Explore > Reports**.
+In **Prism Central** > :fa:`bars` > **Operations** > **Reports**.
 
 Lets run the **Cluster Efficiency Summary** report.
 
@@ -52,7 +52,7 @@ Capacity Runway
 
 Use Prism Central’s Capacity Runway feature to learn about cluster resource planning and recommendations.
 
-In **Prism Central > Planning > Capacity Runway**.
+In **Prism Central** > :fa:`bars` > **Operations** > **Planning** > Click **Capacity Runway** tab.
 
 - Note the runway summaries showing the days left for each cluster.
 - How long does the current cluster has before it runs out of memory, CPU, and storage?
@@ -76,7 +76,7 @@ What If Planning
 
 Push the initial guess of the capacity planning task to add hypothetical workloads and see how the prediction changes.
 
-In **Prism Central > Planning > Scenarios**, then click **New Scenario**.
+In **Prism Central** > :fa:`bars` > **Operations** > **Planning** > Click **Scenario** tab. then click **New Scenario**.
 
 Next, fill out the following fields:
 

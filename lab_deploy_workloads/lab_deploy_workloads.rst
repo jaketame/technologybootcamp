@@ -16,7 +16,7 @@ Nutanix's Image Service is where you can store your build ISOs, as well as Disk 
 
 We will upload CentOS ISO to use for deploying VMs.
 
-In **Prism Central > Explore**, click **Images**.
+In **Prism Central** > :fa:`bars` > **Virtual Infrastructure**, click **Images**.
 
 Next click **Add Image**, and click **URL**.
 
@@ -64,7 +64,7 @@ Creating a Linux VM
 
 Deploy a Linux VM from Prism Central.
 
-In **Prism Central > Explore > VMs**, click **Create VM**.
+In **Prism Central** > :fa:`bars` > **Virtal Infrastructure** > **VMs**, click **Create VM**.
 
 Fill out the following fields and click **Save**:
 
@@ -105,7 +105,7 @@ Deploy a Windows VM from Prism Central.
 
   Nutanix provides a set of guest tools and drivers comparable to VMware Tools. To install a Windows-based OS, the I/O drivers must be provided at install time. Nutanix provides a customized set of virtualized I/O drivers for Windows OS on AHV.
 
-In **Prism Central > Explore > VMs**, click **Create VM**.
+In **Prism Central** >  :fa:`bars` > **Virtual Infrastructure** > VMs**, click **Create VM**.
 
 Fill out the following fields and click **Save**:
 

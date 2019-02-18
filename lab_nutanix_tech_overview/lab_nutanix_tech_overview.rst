@@ -26,30 +26,60 @@ Explore the information on the **Home** screen:
 - Cluster Runway
 - Cluster Quick Access
 - Impacted Cluster | Alerts
-- tasks
+- Tasks
 
-Review the **Explore** screen:
+Review the **Virtual Infrastructure** screen:
 
-- VMs
-- Images
-- Clusters
-- Hosts
-- Disks
-- Storage Containers
+-  VMs
+-  Images
+-  Storage Containers
 
 .. figure:: images/nutanix_tech_overview_10.png
 
+Review the following **Hardware** sub-menus:
+
+  -	Clusters
+  -	Hosts
+  -	Disks
+
+.. figure:: images/nutanix_tech_overview_16.png
+
+Review the following **Operations** sub-menus:
+
+  - Analysis
+  - Planning
+
+.. figure:: images/nutanix_tech_overview_17.png
+
+Review the **Activity** submenus:
+
+  -	Alerts
+  -	Events
+  -	Tasks
+
+.. figure:: images/nutanix_tech_overview_18.png
+
 Review the other sections, and do a quick walk through:
 
-- Planning
-- Analysis
-- Apps (We will configure this later in the workshop)
-- Alerts
-- Tasks :fa:`circle-o`
-- Search :fa:`search`
-- Help :fa:`question`
-- Configuration :fa:`cog`
-- User :fa:`user`
+-	Search (type Search Guidelines in the search bar)
+
+.. figure:: images/nutanix_tech_overview_19.png
+
+•	Help (Click the ? at the top right)
+
+.. figure:: images/nutanix_tech_overview_20.png
+
+•	Settings (Type ‘Settings’ into the search field or click the gear icon at the top right)
+
+.. figure:: images/nutanix_tech_overview_21.png
+
+
+Review the Administration submenus:
+
+  - Projects
+  - Roles
+  - Users
+  - Availability Zones
 
 .......................
 Prism Central UI Review
@@ -63,17 +93,17 @@ How would you find the screen that shows you a table of all the hosts managed by
 
   If this Prism Central instance was managing multiple clusters, this screen would show the hosts for all of the clusters being managed.
 
-In **Prism Central > Explore**, click **Hosts** on left-hand menu.
+In **Prism Central** > :fa:`bars` > **Hardware**, click **Hosts** on left-hand menu.
 
 How would you find the screen that lists all of the VMs currently deployed. This screen looks similar to the figure below?
 
 .. figure:: images/nutanix_tech_overview_12.png
 
-In **Prism Central > Explore**, click **VMs** on left-hand menu.
+In **Prism Central** > :fa:`bars` > **Virtual Infrastructure **, click **VMs** on left-hand menu.
 
 What page would show you the latest activity in the system? On this page, you can monitor the progress of any task and keep track of what has been done in the past using time stamps. Can you figure out two different ways to get there?
 
-First Way, In **Prism Central > Home**, click **View All Tasks**. Second Way, click :fa:`circle-o`
+First Way, In **Prism Central** > :fa:`bars` > **Activity**, click **View All Tasks**. Second Way, click :fa:`circle-o` at the top right.
 
 .. note::
 
@@ -85,11 +115,8 @@ First Way, In **Prism Central > Home**, click **View All Tasks**. Second Way, cl
 
   Example view of vCenter registration to Prism:
 
-<<<<<<< HEAD
-  .. figure:: images/nutanix_tech_overview_000.png
-=======
   .. figure:: images/nutanix_tech_overview_15.png
->>>>>>> ac28cfd82163b7cabd0597ea5025e19407f1171e
+
 
 Prism Element
 +++++++++++++
