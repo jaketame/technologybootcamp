@@ -213,3 +213,29 @@ Add a connection:
 - **Type** - Policy Secure (UAC) or Connection Server
 - **Name** - HPOC VPN
 - **Server URL** - lab-vpn.nutanix.com
+
+Citrix
+..............................
+
+1. Login to https://citrixready.nutanix.com using your supplied credentials
+    Username:  RTP-POC###-User## (Your username should be on a post it note, don’t worry about the @domain)
+    Password: Your instructor should write this on the whiteboard.
+2. Select HTML5 (web browser) OR Install the Citrix Receiver client 3. Select "Customers, Partners & Bootcamps" to access your virtual desktop
+
+VMware Horizon View
+..............................
+1. Browse to https://hostedpoc.nutanix.com
+2. Select HTML5 (web browser) OR Install the Client to point to hostedpoc.nutanix.com
+3. Login using a POC User account to access a desktop
+    Username:  RTP-POC###-User## (Your username should be on a post it note, don’t worry about the @domain)
+    Password: Your instructor should write this on the whiteboard.
+
+RTP Parallels
+..............................
+
+1. Open an HTML5 compatible Browser (Chrome preferred!)
+2. Browse to http://xld-useast1.nutanix.com
+3. Login with your user credentials
+      Username:  RTP-POC###-User## (Your username should be on a post it note, don’t worry about the @domain)
+      Password: Your instructor should write this on the whiteboard.
+4. Launch the Windows 10 desktop, this can take a while to launch whilst the desktop is set up.
